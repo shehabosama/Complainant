@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shehab.complainant">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Register_Activity" />
+        <activity android:name=".Department_Activity" />
+        <activity android:name=".Setup_Activity" />
+        <activity android:name=".Test" />
+        <activity android:name=".First_departments" />
+        <activity android:name=".Metro_activity" />
+        <activity android:name=".gov_news" />
+        <activity android:name=".employee_works" />
+        <activity android:name=".Train_activity" />
+        <activity android:name=".Prices_coins" />
+        <activity android:name=".First_line" />
+        <activity android:name=".Second_line" />
+        <activity android:name=".Thrid_line" />
+        <activity android:name=".Emergnce_call" />
+        <activity android:name=".About_us" />
+        <activity android:name=".sites_government" />
+        <activity android:name=".Activity_open_sites" />
+        <activity android:name=".Settings"></activity>
+    </application>
+
+</manifest>
